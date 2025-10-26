@@ -4,6 +4,9 @@
   "description": "Lightweight TypeScript validation & schema registry library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest",
