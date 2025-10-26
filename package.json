@@ -11,7 +11,8 @@
     "build": "tsc",
     "test": "jest",
     "lint": "eslint src --ext .ts,.js",
-    "lint:fix": "eslint src --ext .ts,.js --fix"
+    "lint:fix": "eslint src --ext .ts,.js --fix",
+    "release:minor": "npm run build && git add . && git commit -m 'build: auto minor release' || echo 'skip commit' && npm version minor && git push --follow-tags"
   },
   "keywords": [
     "typescript",
