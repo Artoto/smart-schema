@@ -1,0 +1,37 @@
+{
+  "name": "@smart-schema/core",
+  "version": "1.0.0",
+  "description": "Lightweight TypeScript validation & schema registry library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts,.js",
+    "lint:fix": "eslint src --ext .ts,.js --fix"
+  },
+  "keywords": [
+    "typescript",
+    "validator",
+    "schema",
+    "jsonschema",
+    "generics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Artoto/smart-schema.git"
+  },
+  "author": "Arthit",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "eslint": "^9.38.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5"
+  }
+}
